@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: auto;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Lobster Two", cursive;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: rgb(248, 26, 92);
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(248, 26, 92);
+}
+
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(248, 26, 92);
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+}
+
+.btn0:hover {
+  background-color: rgb(184, 16, 66);
+  transition: 0.5s;
+}
+
+.main {
+  background: url(./img/hero\ backg.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: brown;
+  text-align: left;
+  position: static;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 60px;
+  margin-top: 30px;
+}
+
+.btn1:hover {
+  background-color: rgb(184, 16, 66);
+  transition: 0.5s;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 16px -3px rgba(46, 46, 46, 0.74);
+  -webkit-box-shadow: 0px 0px 16px -3px rgba(46, 46, 46, 0.74);
+  -moz-box-shadow: 0px 0px 16px -3px rgba(46, 46, 46, 0.74);
+}
+
+.bottom-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/bottom_header.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+#heading1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 50px;
+}
+
+.news-footer {
+  background-color: black;
+  color: white;
+}
+
+.btn2 {
+  height: 46px;
+  width: 100px;
+  background: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+.btn2:hover {
+  background-color: rgb(248, 26, 92);
+  transition: 0.5s;
+}
+
+.news-footer input {
+  height: 45px;
+  width: 50%;
+  border: 2px solid white;
+  outline: none;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.news-footer p {
+  margin: 0;
+}
+
+.fab {
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
